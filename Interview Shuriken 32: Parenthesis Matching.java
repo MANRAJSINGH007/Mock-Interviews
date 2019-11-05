@@ -30,9 +30,7 @@ public class Main {
 
 		// Write your code here
         Scanner sc = new Scanner(System.in);
-        
         String s = sc.next();
-        
         System.out.println(check(s, s.length(), 0, 0));
 
 	}
