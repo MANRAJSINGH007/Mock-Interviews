@@ -44,6 +44,7 @@ public class Solution {
             }
         }
         
+	// index returns the value of the starting index of the pattern in the text.
         if(j == pattern.length()) return index;
         return -1;
 
